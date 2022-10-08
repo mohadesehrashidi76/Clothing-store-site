@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/animate.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/flexboxgrid.css">
+</head>
+<body>
+    <header>
+        <nav>
+<div class="nav-right">
+<a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+<a href=""><i class="fa-solid fa-house"></i></a>
+<a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+<a href=""><i class="fa-solid fa-user"></i></a>
+
+</div>
+<div class="nav-left">
+<div class="register-login-btn">
+    <i class="fa-solid fa-user"></i>
+   <a href="#">ثبت نام ورود</a>
+</a>
+</div>
+</div>
+        </nav>
+        <section class="slider">
+<div class="slides">
+
+    <div class="item active" id="slide1">
+        <img src="./images/graceful-european-woman-winter-fur-coat-stylish-dress-sitting-wearing-ankle-boot-black-leather.jpg" alt="">
+        <span>لباس هات رو با ما خاص پیدا کن</span>
+    </div>
+    <div class="item" id="slide2">
+        <img src="./images/stylish-woman-with-shopping-bags.jpg" alt="">
+        <span>لباس هات رو با ما خاص پیدا کن</span>
+    </div>
+    <div class="item" id="slide3">
+        <img src="./images/side-view-female-tailor-looking-through-garments-hangers-with-copy-space.jpg" alt="">
+        <span>لباس هات رو با ما خاص پیدا کن</span>
+    </div>
+
+</div>
+<div class="buttons">
+    <i onclick="setSlide('slide1',1)"  class="fa-solid fa-circle"></i>
+    <i  onclick="setSlide('slide2',2)" class="fa-solid fa-circle"></i>
+    <i  onclick="setSlide('slide3',3)" class="fa-solid fa-circle"></i>
+</div>
+        </section>
+    </header>
+    <main>
+        <section class="product-sec-new">
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">    <!-- 1-->
+<div class="shoping-card">
+<div class="img-sec">
+    <img src="./images/fashion-portrait-young-elegant-woman.jpg" alt="">
+    
+    <span class="hot-offer">پیشنهاد ویژه</span>
+    <div class="stars">
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+        <i class="fa fa-star" aria-hidden="true"></i>
+    </div>
+</div>
+<div class="tittle">نام محصول</div>
+<div class="buttons">
+    <div class="right">
+        <span class="price">800ت</span>
+    </div>
+    <div class="left">
+        <div class="extend-btn">
+            <a  class="b-text" href="">علاقه</a>
+            <a class="b-icon" href=""><i class="fa fa-heart"></i></a>
+        </div>
+        <div class="extend-btn">
+            <a class="b-text" href="">خرید</a>
+            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i> </a>
+        </div>
+    </div>
+</div>
+
+</div>
+                </div>    <!--end of 1-->
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">    <!-- 2-->
+                    <div class="shoping-card">
+                    <div class="img-sec">
+                        <img src="./images/curly-haired-modern-girl-with-red-bright-big-lips-unusual-earrings-stylish-green-white-sundress-sunglasses.jpg" alt="">
+                        
+                        <span class="hot-offer">پیشنهاد ویژه</span>
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="tittle">نام محصول</div>
+                    <div class="buttons">
+                        <div class="right">
+                            <span class="price">800ت</span>
+                        </div>
+                        <div class="left">
+                            <div class="extend-btn">
+                                <a class="b-text"  href="">علاقه</a>
+                                <a class="b-icon" href=""><i class="fa fa-heart"></i></a>
+                            </div>
+                            <div class="extend-btn">
+                                <a class="b-text" href="">خرید</a>
+                                <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                                    </div> <!--end of 2-->
+                                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">    <!-- 3-->
+                                        <div class="shoping-card">
+                                        <div class="img-sec">
+                                            <img src="./images/portrait-young-woman-casual-clothes-with-blonde-dyed-hair-gently-smiling-during-pleasant-conversation-standing-closed-posture.jpg" alt="">
+                                            
+                                            <span class="hot-offer">پیشنهاد ویژه</span>
+                                            <div class="stars">
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                                <i class="fa fa-star" aria-hidden="true"></i>
+                                            </div>
+                                        </div>
+                                        <div class="tittle">نام محصول</div>
+                                        <div class="buttons">
+                                            <div class="right">
+                                                <span class="price">800ت</span>
+                                            </div>
+                                            <div class="left">
+                                                <div class="extend-btn">
+                                                    <a class="b-text" href="">علاقه</a>
+                                                    <a class="b-icon" href=""><i class="fa fa-heart"></i></a>
+                                                </div>
+                                                <div class="extend-btn">
+                                                    <a class="b-text" href="">خرید</a>
+                                                    <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i> </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        </div>
+                                                        </div> <!--end of 3-->
+                                                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">    <!-- 4-->
+                                                            <div class="shoping-card">
+                                                            <div class="img-sec">
+                                                                <img src="./images/stylish-european-brunette-woman-red-coat-black-hat-posing-white-wall.jpg" alt="">
+                                                                
+                                                                <span class="hot-offer">پیشنهاد ویژه</span>
+                                                                <div class="stars">
+                                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="tittle">نام محصول</div>
+                                                            <div class="buttons">
+                                                                <div class="right">
+                                                                    <span class="price">800ت</span>
+                                                                </div>
+                                                                <div class="left">
+                                                                    <div class="extend-btn">
+                                                                        <a class="b-text"  href="">علاقه</a>
+                                                                        <a class="b-icon"  href=""><i class="fa fa-heart"></i></a>
+                                                                    </div>
+                                                                    <div class="extend-btn">
+                                                                        <a class="b-text"  href="">خرید</a>
+                                                                        <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i> </a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            </div>
+                                                                            </div>   <!--end of 4-->
+            </div>
+        </section>
+        <section class="supper-offer-section">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="supper-offer-box">
+                        <span class="supper-offer-box-title">پیشنهاد شگفت انگیز</span>
+                        <span class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="image-container">
+                                        <img src="./images/pink-sweater-front.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="spesification">
+                                        <div class="price-row">
+                                            <div class="price">1میلیون تومان</div>
+                                            <div class="off">60% تخفیف</div>
+                                        </div>
+                                        <div class="title">پیراهن بافتنی</div>
+                                        <div class="counter-down">
+                                            <span id="seconds">40</span>:
+                                            <span id="minutes">26</span>:
+                                            <span id="hours">19</span>
+                                        </div>
+                                        <div class="remaining-time">زمان باقی مانده نا پایان سفارش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="banner">
+                        <img src="./images/5497689.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>

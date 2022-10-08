@@ -1,0 +1,21 @@
+@font-face
+{
+    font-family: iransans;
+    src: url("../fonts/IRANSansX-Regular.ttf");
+}
+*
+{
+    direction: rtl;
+    font-family: iransans;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 16px;
+    margin: 0px;
+
+}
+a{
+    text-decoration: none;
+}
